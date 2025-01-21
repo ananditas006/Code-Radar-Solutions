@@ -1,3 +1,4 @@
+#include <stdio.h>
 int main(){
     int a,b;
     scanf("%d",&a);
@@ -8,5 +9,5 @@ int main(){
     else{
         printf("False");
     }
-    return 0
+    return 0;
 }
