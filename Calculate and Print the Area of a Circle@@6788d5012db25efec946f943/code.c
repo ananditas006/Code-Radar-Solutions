@@ -2,7 +2,7 @@
  
 
 int main() {
-    float r,;
+    float r;
     scanf("%f", &r);
     
     float a = 3.14 * r * r;  
