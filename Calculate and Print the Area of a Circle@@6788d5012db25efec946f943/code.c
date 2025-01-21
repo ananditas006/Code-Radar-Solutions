@@ -2,7 +2,7 @@
 #include <math.h>  
 
 int main() {
-    float r;
+    float r,a;
     scanf("%f", &r);
     
     float a = M_PI * r * r;  
