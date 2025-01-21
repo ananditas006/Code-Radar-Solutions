@@ -1,7 +1,12 @@
 #include <stdio.h>
-int main(){
-    double a;
-    scanf("%lf",&a);
-    printf("You entered: %.6f\n",a);
+
+int main() {
+    double num;  
+    
+    scanf("%lf", &num);  
+    
+    
+    printf("%.6lf\n", num);  
+    
     return 0;
 }
