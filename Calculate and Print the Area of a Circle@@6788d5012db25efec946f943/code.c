@@ -1,8 +1,13 @@
 #include <stdio.h>
-int main(){
+#include <math.h>  
+
+int main() {
     float r;
     scanf("%f", &r);
-    float a = 3.14159 * r * r;  
-    printf("Area: %.2f\n", a);    
+    
+    float a = M_PI * r * r;  
+    
+    printf("Area: %.2f\n", a);  
+    
     return 0;
 }
