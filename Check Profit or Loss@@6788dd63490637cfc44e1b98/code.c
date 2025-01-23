@@ -10,7 +10,7 @@ int main(){
         printf("Profit");
     }
     else{
-        (No Profit No Loss);
+        ("No Profit No Loss");
     }
     return 0;
 }
