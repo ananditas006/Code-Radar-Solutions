@@ -8,20 +8,20 @@ int isPrime(int num) {
     // Check divisibility from 2 to num-1
     for (int i = 2; i < num; i++) {
         if (num % i == 0)  // If divisible by any number other than 1 and itself
-            return 0;
+            return 0;  // It's not a prime
     }
 
-    return 1;  // The number is prime
+    return 1;  // It's a prime number
 }
 
 int main() {
     int num;
 
-    // Input from the user
+    // Take user input
     printf("Enter a number: ");
     scanf("%d", &num);
 
-    // Check if the number is prime
+    // Check and display if the number is prime
     if (isPrime(num)) {
         printf("Prime");
     } else {
