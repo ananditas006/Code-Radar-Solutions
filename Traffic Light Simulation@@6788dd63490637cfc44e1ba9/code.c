@@ -2,7 +2,7 @@
 
 int main() {
     char ch;
-    scanf(" %c", &ch);  // Add a space before %c to skip any leading whitespace characters
+    scanf(" %c", &ch);  
     if(ch == 'R') {
         printf("Stop");
     }
