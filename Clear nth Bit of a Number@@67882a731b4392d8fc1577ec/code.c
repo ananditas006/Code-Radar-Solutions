@@ -7,9 +7,9 @@ int main() {
     
     scanf("%d", &n);
 
-    number = number & ~(1 << n);
+    nume = number & ~(1 << n);
 
-    printf("%d\n",  number);a
+    printf("%d\n",  nume);
 
     return 0;
 }
