@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a;
-    scanf("%u",&a);
+    scanf("%d",&a);
     int sum= ~a;
-    printf("%u",sum);
+    printf("%d",sum);
     return 0;
 }
