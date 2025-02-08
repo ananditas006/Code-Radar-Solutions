@@ -9,7 +9,7 @@ int main() {
 
     int nthBit = (number >> n) & 1;
 
-    printf("%d\n", n, nthBit);
+    printf("%d\n",  nthBit);
 
     return 0;
 }
