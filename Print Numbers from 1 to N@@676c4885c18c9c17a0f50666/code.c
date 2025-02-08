@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main(){
-    int i;
-    scanf("%d",&i);
-    while(i>0){
-        printf("%d",i);
-        i--;
-    }
+    int a;
+    scanf("%d",&a);
+    for(i=1,a>0,i++){
+        printf("%d ",i);    }
     return 0;
 }
