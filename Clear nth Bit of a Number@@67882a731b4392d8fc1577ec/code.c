@@ -7,7 +7,7 @@ int main() {
     
     scanf("%d", &n);
 
-    nume = number & ~(1 << n);
+    int nume = number & ~(1 << n);
 
     printf("%d\n",  nume);
 
