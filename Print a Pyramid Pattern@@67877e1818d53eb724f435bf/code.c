@@ -1,32 +1,31 @@
 #include <stdio.h>
-#include <string.h>
 
-void printPyramid(char str[]) {
-    int len = strlen(str);
-    for (int i = 1; i <= len; i++) {
-        for (int j = 0; j < len - i; j++) {
+void printPyramid(int n) {
+    for (int i = 1; i <= n; i++) {
+        // Print spaces before the stars
+        for (int j = 1; j <= n - i; j++) {
             printf(" ");
         }
-        
-        // Print the string part for this level
-        for (int k = 0; k < i; k++) {
-            printf("%c", str[k]);
+
+        // Print stars in the current row
+        for (int k = 1; k <= (2 * i - 1); k++) {
+            printf("*");
         }
-        
-        // Move to the next line
+
+        // Move to the next line after each row
         printf("\n");
     }
 }
 
 int main() {
-    char str[100];
+    int n;
     
-    // Input the string for pyramid pattern
-    printf("Enter a string: ");
-    scanf("%s", str);
-    
+    // Input number of rows for the pyramid
+    printf("Enter the number of rows for the pyramid: ");
+    scanf("%d", &n);
+
     // Print the pyramid pattern
-    printPyramid(str);
-    
+    printPyramid(n);
+
     return 0;
 }
