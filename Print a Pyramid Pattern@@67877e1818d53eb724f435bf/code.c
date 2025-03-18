@@ -3,10 +3,7 @@
 
 void printPyramid(char str[]) {
     int len = strlen(str);
-    
-    // Loop for each level of the pyramid
     for (int i = 1; i <= len; i++) {
-        // Print spaces before the string
         for (int j = 0; j < len - i; j++) {
             printf(" ");
         }
