@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&arr[N]);
     }
     int k;
-    scanf("%d";&k);
+    scanf("%d",&k);
     k=k%N
     for(int i=0;i<k;i++){
         int temp=arr[N-1];
