@@ -7,7 +7,7 @@ int main(){
     }
     int k;
     scanf("%d",&k);
-    k=k%N
+    k=k%N;
     for(int i=0;i<k;i++){
         int temp=arr[N-1];
         for(int j=N-1;j>0;j--){
